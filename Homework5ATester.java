@@ -3,7 +3,7 @@
  */
 import java.util.*;
 
-public class Homework5ATester {
+public class SelectionSorterTester {
 	private static int counter = 0;
 	/**
 	 * Testes the Selection Sorter
