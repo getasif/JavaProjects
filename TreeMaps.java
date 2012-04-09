@@ -3,13 +3,13 @@
  * Reads input from the command line.
  * @author Akshay 
  */
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeSet;
 public class TreeMaps {
 	public static void main(String [] args) {
-		Map <Integer, TreeSet<String>> map = new HashMap <Integer, TreeSet<String>>();
+		Map <Integer, TreeSet<String>> map = new TreeMap <Integer, TreeSet<String>>();
 		Scanner in = new Scanner(System.in);
 		String input;
 		while (in.hasNext()) {
